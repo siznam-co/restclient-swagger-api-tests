@@ -1,0 +1,12 @@
+@baseURL = https://petstore.swagger.io/v2
+@pet_id =9223372036854771285
+
+
+# @name valueget
+
+GET {{baseURL}}/pet/{{pet_id}}
+content-type: application/json
+
+# @name deleteuser
+DELETE {{baseURL}}/pet/{{pet_id}}
+ontent-type: application/json

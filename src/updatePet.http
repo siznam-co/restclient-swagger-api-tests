@@ -1,0 +1,25 @@
+@baseURL = https://petstore.swagger.io/v2
+@pet_id = 9223372036854771285
+
+# @name update
+PUT {{baseURL}}/pet/{{pet_id}} HTTP/1.1
+content-type: application/json
+{
+  "id": 0,
+  "category": {
+    "id": 0,
+    "name": "Bull Dog"
+  },
+  "name": "Hairy Dog",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "Alternative"
+    }
+  ],
+  "status": "available"
+}
+

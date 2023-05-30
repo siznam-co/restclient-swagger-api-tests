@@ -1,0 +1,24 @@
+@baseURL = https://petstore.swagger.io/v2
+
+# @name createpost
+POST {{baseURL}}/pet
+content-type: application/json
+
+{
+  "id": 0,
+  "category": {
+    "id": 0,
+    "name": "string"
+  },
+  "name": "doggie",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "string"
+    }
+  ],
+  "status": "available"
+}
